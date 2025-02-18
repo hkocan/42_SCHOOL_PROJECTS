@@ -3,7 +3,7 @@
 ## **Circle 0 & 1**
 | Proje Adı | Durum |
 | :- | :- |
-| [Libft](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/libft) |
+| [Libft](#) | ![✔ 122%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/libft) |
 | [ft_printf](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/printf)	|
 | [get_next_line](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/get_next_line) |
 | [Born2beroot](#) | ![✔ 80%](https://custom-icon-badges.demolab.com/badge/✔%2080-017520.svg?&style=for-the-badge&color=018f27) |
@@ -12,22 +12,22 @@
 | Proje Adı | Durum |
 | :- | :- |
 | [so_long](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/so_long?tab=readme-ov-file) |
-| [push_swap](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/push_swap) |
-| [minitalk](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
+| [push_swap](#) | ![✔ 98%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/push_swap) |
+| [minitalk](#) | ![✔ 125%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 | [Exam Rank 02](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 
 ## **Circle 3**
 | Proje Adı | Durum |
 | :- | :- |
 | [Philosophers](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
-| [minishell](#) | ![✔ 103%](https://custom-icon-badges.demolab.com/badge/✔%20103-02b331.svg?&style=for-the-badge&color=018f27) |
+| [minishell](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20103-02b331.svg?&style=for-the-badge&color=018f27) |
 | [Exam Rank 03](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 
 ## **Circle 4**
 | Proje Adı | Durum |
 | :- | :- |
 | [NetPractice](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
-| [cub3D](#) | ![✔ 105%](https://custom-icon-badges.demolab.com/badge/✔%20105-02b331.svg?&style=for-the-badge&color=018f27) |
+| [cub3D](#) | ![✔ 115%](https://custom-icon-badges.demolab.com/badge/✔%20105-02b331.svg?&style=for-the-badge&color=018f27) |
 | [CPP (00 to 04)](#) | ![✔ Completed](https://custom-icon-badges.demolab.com/badge/✔%20Completed-02b331.svg?&style=for-the-badge&color=7E0080) |
 | [Exam Rank 04](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 
