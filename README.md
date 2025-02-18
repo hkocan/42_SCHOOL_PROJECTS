@@ -12,22 +12,22 @@
 | Proje Adı | Durum |
 | :- | :- |
 | [so_long](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/so_long?tab=readme-ov-file) |
+| [minitalk](#) | ![✔ 125%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/minitalk) |
 | [push_swap](#) | ![✔ 98%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/push_swap) |
-| [minitalk](#) | ![✔ 125%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 | [Exam Rank 02](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 
 ## **Circle 3**
 | Proje Adı | Durum |
 | :- | :- |
 | [Philosophers](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
-| [minishell](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20103-02b331.svg?&style=for-the-badge&color=018f27) |
+| [minishell](#) | ![✔ 100%](https://github.com/bkorkut/Minishell) |
 | [Exam Rank 03](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 
 ## **Circle 4**
 | Proje Adı | Durum |
 | :- | :- |
 | [NetPractice](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
-| [cub3D](#) | ![✔ 115%](https://custom-icon-badges.demolab.com/badge/✔%20105-02b331.svg?&style=for-the-badge&color=018f27) |
+| [cub3D](#) | ![✔ 115%](https://github.com/TroubledKezoo1/Cub3d) |
 | [CPP (00 to 04)](#) | ![✔ Completed](https://custom-icon-badges.demolab.com/badge/✔%20Completed-02b331.svg?&style=for-the-badge&color=7E0080) |
 | [Exam Rank 04](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 
