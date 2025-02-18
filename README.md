@@ -11,7 +11,7 @@
 ## **Circle 2**
 | Proje Adı | Durum |
 | :- | :- |
-| [fract'ol](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
+| [so_long](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/so_long?tab=readme-ov-file) |
 | [push_swap](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 | [minitalk](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 | [Exam Rank 02](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
