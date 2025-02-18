@@ -19,7 +19,7 @@
 ## **Circle 3**
 | Proje Adı | Durum |
 | :- | :- |
-| [Philosophers](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
+| [Philosophers](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/philosophers) |
 | [minishell](#) | ![✔ 100%](https://github.com/bkorkut/Minishell) |
 | [Exam Rank 03](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 
