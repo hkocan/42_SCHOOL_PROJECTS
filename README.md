@@ -3,7 +3,7 @@
 ## **Circle 0 & 1**
 | Proje Adı | Durum |
 | :- | :- |
-| [Libft](#) | ![✔ 100%](https://github.com/hkocan/my_libft) |
+| [Libft](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/libft) |
 | [get_next_line](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 | [ft_printf](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
 | [Born2beroot](#) | ![✔ 80%](https://custom-icon-badges.demolab.com/badge/✔%2080-017520.svg?&style=for-the-badge&color=018f27) |
