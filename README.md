@@ -10,7 +10,7 @@
 
 ## **Circle 2**
 | Proje Adı | Durum |
-| :- | :- |
+| :- | :- |git 
 | [so_long](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/so_long?tab=readme-ov-file) |
 | [minitalk](#) | ![✔ 125%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/minitalk) |
 | [push_swap](#) | ![✔ 98%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/push_swap) |
@@ -48,16 +48,25 @@
 ---
 
 ## **Nasıl Kullanılır?**
-- Projelerini **tamamladıkça** badge’leri güncelle!
-- GitHub'da `README.md` olarak ekle ve takip et.
-- Projelerin linklerini kendi repo'na göre **düzenleyebilirsin**.
+<!-- Eğer sadece `main` branch görünüyorsa, tüm branch'leri görmek için:
 
----
-
-## **GitHub’a Yükleme**
-Markdown dosyanı GitHub’a yüklemek için terminalde şu komutları çalıştır:
-
-```sh
-git add README.md
-git commit -m "42 School Projects tablosu tamamlandı 🎯"
+ git fetch --all
+ git branch -r -->
+ 
+<!-- git add README.md
+git commit -m "42 School Projects tablosu tamamlandı "
 git push origin main
+
+git branch yeni-branch-adi   # Sadece branch oluşturur
+git checkout yeni-branch-adi # Oluşturduğun branch’e geçersin
+
+lokal de branch silme
+git branch -d branch-adi
+git branch -D branch-adi
+
+githupta branch
+git push origin --delete branch-adi
+
+
+
+ -->
