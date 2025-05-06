@@ -1,51 +1,49 @@
 # **42 SCHOOL PROJECTS**
 
 ## **Circle 0 & 1**
-| Proje Adı | Durum |
-| :- | :- |
-| [Libft](#) | ![✔ 122%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/libft) |
-| [ft_printf](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/printf)	|
-| [get_next_line](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/get_next_line) |
-| [Born2beroot](#) | ![✔ 80%](https://custom-icon-badges.demolab.com/badge/✔%2080-017520.svg?&style=for-the-badge&color=018f27) |
+| Proje Adı | Durum | Git Clone |
+| :- | :- | :- |
+| [Libft](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/libft) | ✔ 122% | `git clone -b libft https://github.com/hkocan/42_SCHOOL_PROJECTS.git` |
+| [ft_printf](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/printf) | ✔ 100% | `git clone -b printf https://github.com/hkocan/42_SCHOOL_PROJECTS.git` |
+| [get_next_line](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/get_next_line) | ✔ 100% | `git clone -b get_next_line https://github.com/hkocan/42_SCHOOL_PROJECTS.git` |
+| Born2beroot | ✔ 80% | |
 
 ## **Circle 2**
-| Proje Adı | Durum |
-| :- | :- |git 
-| [so_long](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/so_long?tab=readme-ov-file) |
-| [minitalk](#) | ![✔ 125%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/minitalk) |
-| [push_swap](#) | ![✔ 98%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/push_swap) |
-| [Exam Rank 02](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
+| Proje Adı | Durum | Git Clone |
+| :- | :- | :- |
+| [so_long](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/so_long) | ✔ 100% | `git clone -b so_long https://github.com/hkocan/42_SCHOOL_PROJECTS.git` |
+| [minitalk](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/minitalk) | ✔ 125% | `git clone -b minitalk https://github.com/hkocan/42_SCHOOL_PROJECTS.git` |
+| [push_swap](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/push_swap) | ✔ 98% | `git clone -b push_swap https://github.com/hkocan/42_SCHOOL_PROJECTS.git` |
+| Exam Rank 02 | ✔ 100% ||
 
 ## **Circle 3**
-| Proje Adı | Durum |
-| :- | :- |
-| [Philosophers](#) | ![✔ 100%](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/philosophers) |
-| [minishell](#) | ![✔ 100%](https://github.com/bkorkut/Minishell) |
-| [Exam Rank 03](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
+| Proje Adı | Durum | Git Clone |
+| :- | :- | :- |
+| [Philosophers](https://github.com/hkocan/42_SCHOOL_PROJECTS/tree/philosophers) | ✔ 100% | `git clone -b philosophers https://github.com/hkocan/42_SCHOOL_PROJECTS.git` |
+| [minishell](https://github.com/bkorkut/Minishell) | ✔ 100% | |
+| Exam Rank 03 | ✔ 100% ||
 
 ## **Circle 4**
-| Proje Adı | Durum |
-| :- | :- |
-| [NetPractice](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
-| [cub3D](#) | ![✔ 115%](https://github.com/TroubledKezoo1/Cub3d) |
-| [CPP (00 to 04)](#) | ![✔ Completed](https://custom-icon-badges.demolab.com/badge/✔%20Completed-02b331.svg?&style=for-the-badge&color=7E0080) |
-| [Exam Rank 04](#) | ![✔ 100%](https://custom-icon-badges.demolab.com/badge/✔%20100-02b331.svg?&style=for-the-badge&color=018f27) |
+| Proje Adı | Durum | Git Clone |
+| :- | :- | :- |
+| NetPractice | ✔ 100% | |
+| [cub3D](https://github.com/TroubledKezoo1/Cub3d) | ✔ 115% | |
+| [CPP Modules (00 - 09)](cpp_modules.md) | ⏳ In Progress | [cpp_modules.md](cpp_modules.md) |
+| Exam Rank 04 | ✔ 100% | Lokal proje - clone yok |
 
 ## **Circle 5**
-| Proje Adı | Durum |
-| :- | :- |
-| [Inception](#) | ![❌ Not Started](https://custom-icon-badges.demolab.com/badge/Not%20Started-red.svg?&style=for-the-badge&color=c42404) |
-| [ft_irc](#) | ![❌ Not Started](https://custom-icon-badges.demolab.com/badge/Not%20Started-red.svg?&style=for-the-badge&color=c42404) |
-| [CPP (05 to 09)](#) | ![⏳ In Progress](https://custom-icon-badges.demolab.com/badge/In%20Progress-yellow.svg?&style=for-the-badge&color=f5a623) |
-| [Exam Rank 05](#) | ![❌ Not Started](https://custom-icon-badges.demolab.com/badge/Not%20Started-red.svg?&style=for-the-badge&color=c42404) |
+| Proje Adı | Durum | Git Clone |
+| :- | :- | :- |
+| Inception | ❌ Not Started |  |
+| ft_irc | ❌ Not Started |  |
+| [CPP Modules (05 - 09)](cpp_modules.md) | ⏳ In Progress | [cpp_modules.md](cpp_modules.md) |
+| Exam Rank 05 | ❌ Not Started |  |
 
 ## **Circle 6**
-| Proje Adı | Durum |
-| :- | :- |
-| [ft_transcendence](#) | ![❌ Not Started](https://custom-icon-badges.demolab.com/badge/Not%20Started-red.svg?&style=for-the-badge&color=c42404) |
-| [Exam Rank 06](#) | ![❌ Not Started](https://custom-icon-badges.demolab.com/badge/Not%20Started-red.svg?&style=for-the-badge&color=c42404) |
-
----
+| Proje Adı | Durum | Git Clone |
+| :- | :- | :- |
+| ft_transcendence | ❌ Not Started |  |
+| Exam Rank 06 | ❌ Not Started | |
 
 ## **Nasıl Kullanılır?**
 <!-- Eğer sadece `main` branch görünüyorsa, tüm branch'leri görmek için:
