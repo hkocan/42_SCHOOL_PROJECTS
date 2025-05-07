@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/02 18:35:54 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 15:12:57 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 02:46:11 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ ShrubberyCreationForm &ShrubberyCreationForm::operator=(const ShrubberyCreationF
 	if (this != &other)
 	{
 		AForm::operator=(other);
-		this->target = other.target;
 		std::cout << GREEN << "ShrubberyCreationForm copy assignment operator called" << RESET << std::endl;
 	}
 	return *this;
@@ -71,4 +70,6 @@ void ShrubberyCreationForm::execute(const Bureaucrat &executor) const
 			<< "    *******\n"
 			<< "   *********\n"
 			<< "      |||\n";
+	outFile.close();
+	std::cout << "Shrubbery created in " << target << "_shrubbery" << std::endl;
 }

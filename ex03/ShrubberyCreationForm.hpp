@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/02 18:35:50 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 14:59:07 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 02:18:04 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 class ShrubberyCreationForm : public AForm
 {
 private:
-	std::string target;
+	const std::string target;
 
 public:
 	ShrubberyCreationForm();

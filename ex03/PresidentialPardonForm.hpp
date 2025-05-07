@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 14:13:48 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 14:50:56 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 02:17:43 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 class PresidentialPardonForm : public AForm
 {
 private:
-	std::string target;
+	const std::string target;
 public:
 	PresidentialPardonForm();
 	PresidentialPardonForm(const std::string &target);

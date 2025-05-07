@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 01:03:41 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 14:57:51 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 02:50:10 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ RobotomyRequestForm &RobotomyRequestForm::operator=(const RobotomyRequestForm &o
 {
 	if (this != &other)
 	{
-		this->target = other.target;
 		std::cout << GREEN << "Copy assignment operator called for RobotomyRequestForm" << RESET << std::endl;
 	}
 	return *this;
@@ -47,9 +46,12 @@ void RobotomyRequestForm::execute(const Bureaucrat &executor) const
 		throw FormNotSignedException();
 	if (executor.getGrade() > this->getGradeToExecute())
 		throw GradeTooLowException();
-	std::srand(time(NULL));
+	std::srand(std::time(0)); // Seed the random number generator
+	
 	int i = std::rand();
-	//std::cout <<"i: " << i << std::endl;
+	
+	std::cout << "vvvzzzzz... drilling noises*" << std::endl;
+	
 	if(i % 2 == 0)
 		std::cout << this->target << BLUE << " has been robotomized successfully ." << RESET << std::endl;
 	else

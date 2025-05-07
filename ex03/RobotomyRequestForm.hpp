@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 19:03:21 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 14:55:01 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 02:17:54 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 class RobotomyRequestForm : public AForm
 {
 private:
-	std::string target;
+	const std::string target;
 
 public:
 	RobotomyRequestForm();

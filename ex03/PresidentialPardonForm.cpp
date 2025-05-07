@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 14:13:53 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 14:53:31 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 02:19:53 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ PresidentialPardonForm &PresidentialPardonForm::operator=(const PresidentialPard
 {
 	if (this != &other)
 	{
-		this->target = other.target;
 		std::cout << GREEN << "Copy assignment operator called for PresidentialPardonForm" << RESET << std::endl;
 	}
 	return *this;
