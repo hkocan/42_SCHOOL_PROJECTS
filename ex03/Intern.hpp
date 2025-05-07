@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 15:19:50 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 15:30:34 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 03:02:41 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,10 @@ public:
 	~Intern();
 
 	AForm *makeForm(const std::string &formName, const std::string &target);
+	class FormNotFoundException : public std::exception
+	{
+		const char *what() const throw();
+	};
 };
 
 #endif

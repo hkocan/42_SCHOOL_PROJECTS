@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 15:23:03 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/04 15:49:30 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/07 03:05:33 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,11 @@ Intern::~Intern()
 	std::cout << RED << "Intern destructor called" << RESET << std::endl;
 }
 
+const char *Intern::FormNotFoundException::what() const throw()
+{
+	return "Intern: Form not found";
+}
+
 AForm *Intern::makeForm(const std::string &formName, const std::string &target)
 {
 	AForm *form = NULL;
@@ -46,6 +51,6 @@ AForm *Intern::makeForm(const std::string &formName, const std::string &target)
 	else if (formName == "PresidentialPardonForm")
 		form = new PresidentialPardonForm(target);
 	else
-		std::cout << RED << "Intern: Form not found" << RESET << std::endl;
+		throw Intern::FormNotFoundException();
 	return form;
 }
