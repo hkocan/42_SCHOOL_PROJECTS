@@ -1,13 +1,13 @@
 NAME = ex00
 
-SRC = 	main.cpp \
-		Bureaucrat.cpp \
+SRC = 	src/main.cpp \
+		src/Bureaucrat.cpp \
 
 OBJ = $(SRC:.cpp=.o)
 
 CC = c++
 
-CFLAGS = -std=c++98 -Wall -Wextra -Werror
+CFLAGS = -std=c++98 -Wall -Wextra -Werror -I./inc
 
 RM = rm -rf
 

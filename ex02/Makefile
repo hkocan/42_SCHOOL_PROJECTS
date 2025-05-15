@@ -1,17 +1,17 @@
 NAME = ex02
 
-SRC = 	main.cpp \
-		Bureaucrat.cpp \
-		AForm.cpp\
-		ShrubberyCreationForm.cpp \
-		RobotomyRequestForm.cpp \
-		PresidentialPardonForm.cpp \
+SRC = 	src/main.cpp \
+		src/Bureaucrat.cpp \
+		src/AForm.cpp\
+		src/ShrubberyCreationForm.cpp \
+		src/RobotomyRequestForm.cpp \
+		src/PresidentialPardonForm.cpp \
 	
 OBJ = $(SRC:.cpp=.o)
 
 CC = c++
 
-CFLAGS = -std=c++98 -Wall -Wextra -Werror
+CFLAGS = -std=c++98 -Wall -Wextra -Werror -I./inc
 
 RM = rm -rf
 
