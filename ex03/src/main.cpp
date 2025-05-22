@@ -29,16 +29,8 @@ int main()
 		{
 			std::cout << "\nTrying to create: " << formNames[i] << std::endl;
 			AForm *form = intern.makeForm(formNames[i], "TargetX");
-
-			if (form)
-			{
-				std::cout << "Form created: " << form->getName() << std::endl;
-				delete form;
-			}
-			else
-			{
-				std::cout << "Form creation failed." << std::endl;
-			}
+			std::cout << "Form created: " << form->getName() << std::endl;
+			delete form;
 			std::cout << "---------------------------------" << std::endl;
 		}
 	}
