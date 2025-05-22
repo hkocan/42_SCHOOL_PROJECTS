@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Bureaucrat.hpp"
 #include "AForm.hpp"
+#include "Bureaucrat.hpp"
 #include "ShrubberyCreationForm.hpp"
 #include "RobotomyRequestForm.hpp"
 #include "PresidentialPardonForm.hpp"
@@ -74,8 +74,8 @@ int main()
   
     try
     {
-        Bureaucrat mehmet("Mehmet", 40);
-        PresidentialPardonForm form("Robotomy");
+        Bureaucrat mehmet("Mehmet", 2);
+        PresidentialPardonForm form("President");
         
         std::cout << form << std::endl;
         

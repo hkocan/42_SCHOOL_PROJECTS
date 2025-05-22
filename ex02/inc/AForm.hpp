@@ -39,7 +39,6 @@ public:
 	virtual ~AForm();
 
 	// Getter
-
 	std::string getName() const;
 	bool getIsSigned() const;
 	int getGradeToSign() const;

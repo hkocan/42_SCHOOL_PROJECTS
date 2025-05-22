@@ -30,7 +30,7 @@ RobotomyRequestForm &RobotomyRequestForm::operator=(const RobotomyRequestForm &o
 {
 	if (this != &other)
 	{
-		this->target = other.target;
+		//this->target = other.target; //const
 		std::cout << GREEN << "Copy assignment operator called for RobotomyRequestForm" << RESET << std::endl;
 	}
 	return *this;

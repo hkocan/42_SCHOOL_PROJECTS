@@ -31,7 +31,7 @@ PresidentialPardonForm &PresidentialPardonForm::operator=(const PresidentialPard
 {
 	if (this != &other)
 	{
-		this->target = other.target;
+		//this->target = other.target; //const
 		std::cout << GREEN << "Copy assignment operator called for PresidentialPardonForm" << RESET << std::endl;
 	}
 	return *this;

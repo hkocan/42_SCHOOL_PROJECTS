@@ -25,7 +25,7 @@
 class RobotomyRequestForm : public AForm
 {
 private:
-	std::string target;
+	const std::string target;
 
 public:
 	RobotomyRequestForm();

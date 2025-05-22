@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Bureaucrat.hpp"
 #include "Form.hpp"
+#include "Bureaucrat.hpp"
 #include <iostream>
 
 int main()
@@ -49,6 +49,5 @@ int main()
     {
         std::cerr << "Exception caught: " << e.what() << std::endl;
     }
-
     return 0;
 }

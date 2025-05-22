@@ -38,7 +38,7 @@ ShrubberyCreationForm &ShrubberyCreationForm::operator=(const ShrubberyCreationF
 	if (this != &other)
 	{
 		AForm::operator=(other);
-		this->target = other.target;
+		//this->target = other.target; // const
 		std::cout << GREEN << "ShrubberyCreationForm copy assignment operator called" << RESET << std::endl;
 	}
 	return *this;
