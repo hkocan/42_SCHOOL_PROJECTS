@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 13:55:36 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/15 14:35:28 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/23 18:01:35 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ int main(int argc, char** argv) {
     }
     ScalarConverter::convert(argv[1]);
     return 0;
+    
 }
 
 

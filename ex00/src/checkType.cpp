@@ -77,8 +77,7 @@ bool isDouble(const std::string &literal)
 bool isPseudoLiteral(const std::string &literal)
 {
     return literal == "nan" || literal == "+inf" || literal == "-inf" ||
-           literal == "inf" || literal == "nanf" || literal == "+inff" ||
-           literal == "-inff" || literal == "inff";
+           literal == "nanf" || literal == "+inff" || literal == "-inff";
 }
 
 std::string CheckType(const std::string &literal)

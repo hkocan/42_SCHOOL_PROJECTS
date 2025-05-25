@@ -6,7 +6,7 @@
 /*   By: hkocan <haticekocan97@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 01:39:57 by hkocan            #+#    #+#             */
-/*   Updated: 2025/05/15 20:22:12 by hkocan           ###   ########.fr       */
+/*   Updated: 2025/05/25 17:54:49 by hkocan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 Base* generate()
 {
     std::srand(std::time(NULL));
-    int r = std::rand() % 3;
+    int r = std::rand() % 3; 
     switch (r)
     {
         case 0: 
@@ -52,19 +52,19 @@ void identify(Base& p)
         (void)dynamic_cast<A&>(p);
         std::cout << "A" << std::endl;
         return;
-    } catch (...) {}
+    } catch (std::exception &e){}
 
     try {
         (void)dynamic_cast<B&>(p);
         std::cout << "B" << std::endl;
         return;
-    } catch (...) {}
+    } catch (std::exception &e){}
 
     try {
         (void)dynamic_cast<C&>(p);
         std::cout << "C" << std::endl;
         return;
-    } catch (...) {}
+    } catch (std::exception &e){}
 
     std::cout << "Unknown type" << std::endl;
 }
