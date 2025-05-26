@@ -17,7 +17,7 @@
 #include <iostream>
 #include <string>
 
-// int dizisi için test fonksiyonu
+// int test
 void testIntArray() {
 	std::cout << "[Test: Int Array]" << std::endl;
 	Array<int> intArray(10);
@@ -30,7 +30,7 @@ void testIntArray() {
 	std::cout << "--------------------------" << std::endl;
 }
 
-// string dizisi için test fonksiyonu
+// string test
 void testStringArray() {
 	std::cout << "[Test: String Array]" << std::endl;
 	Array<std::string> strArray(3);
@@ -44,7 +44,7 @@ void testStringArray() {
 	std::cout << "--------------------------" << std::endl;
 }
 
-// index erişim ve değişim testleri
+// index test
 void testAccessAndModify() {
 	std::cout << "[Test: Access & Modify]" << std::endl;
 	Array<int> numbers(5);
@@ -58,15 +58,27 @@ void testAccessAndModify() {
 	std::cout << "--------------------------" << std::endl;
 }
 
-// const array testi
+// const array test
 void testConstArray() {
 	std::cout << "[Test: Const Array]" << std::endl;
-	const Array<int> constNumbers(3);
+
+
+	Array<int> tempNumbers(3);
+	tempNumbers[0] = 1;
+	tempNumbers[1] = 2;
+	tempNumbers[2] = 3;
+
+	const Array<int> constNumbers = tempNumbers;
+
 	std::cout << "Size: " << constNumbers.size() << std::endl;
 	std::cout << constNumbers[0] << std::endl;
-	// constNumbers[0] = 10; // bu satır derleme hatası verir, yorumda kalmalı
+	std::cout << constNumbers[1] << std::endl;
+	std::cout << constNumbers[2] << std::endl;
+
+	// constNumbers[0] = 10;
 	std::cout << "--------------------------" << std::endl;
 }
+
 
 // out-of-bounds testi
 void testIndexOutOfBounds() {
@@ -85,63 +97,7 @@ int main() {
 		testIndexOutOfBounds();
 	}
 	catch (const std::exception& e) {
-		std::cerr << "Unexpected exception: " << e.what() << std::endl << std::endl;
+		std::cerr << "Exception: " << e.what() << std::endl << std::endl;
 	}
 	return 0;
 }
-
-
-/* 
-#include <iostream>
-#include <Array.hpp>
-
-#define MAX_VAL 750
-int main(int, char**)
-{
-    Array<int> numbers(MAX_VAL);
-    int* mirror = new int[MAX_VAL];
-    srand(time(NULL));
-    for (int i = 0; i < MAX_VAL; i++)
-    {
-        const int value = rand();
-        numbers[i] = value;
-        mirror[i] = value;
-    }
-    //SCOPE
-    {
-        Array<int> tmp = numbers;
-        Array<int> test(tmp);
-    }
-
-    for (int i = 0; i < MAX_VAL; i++)
-    {
-        if (mirror[i] != numbers[i])
-        {
-            std::cerr << "didn't save the same value!!" << std::endl;
-            return 1;
-        }
-    }
-    try
-    {
-        numbers[-2] = 0;
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
-    }
-    try
-    {
-        numbers[MAX_VAL] = 0;
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
-    }
-
-    for (int i = 0; i < MAX_VAL; i++)
-    {
-        numbers[i] = rand();
-    }
-    delete [] mirror;//
-    return 0;
-} */
