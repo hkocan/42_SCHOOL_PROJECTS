@@ -15,7 +15,6 @@
 #include <climits>
 #include <sstream>
 
-
 bool isScientific(double value) 
 {
     std::ostringstream oss;
@@ -63,7 +62,7 @@ void printInt(int i)
 void printFloat(float f)
 {
     printCharCheck(static_cast<int>(f));
-   if(f < INT_MIN || f > INT_MAX) 
+   if(f < static_cast<float>(INT_MIN) || f > static_cast<float>(INT_MAX)) 
         std::cout << "int: impossible" << std::endl;
      else 
         std::cout << "int: " << static_cast<int>(f) << std::endl;

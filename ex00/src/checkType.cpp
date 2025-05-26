@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   checkType.cpp                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hkocan <hkocan@student.42.fr>              #+#  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025-05-26 05:23:46 by hkocan            #+#    #+#             */
+/*   Updated: 2025-05-26 05:23:46 by hkocan           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "convert.hpp"
 #include <climits>
 #include <cstdlib>
@@ -6,7 +18,8 @@
 
 bool isChar(const std::string &literal)
 {
-    return literal.length() == 1 && static_cast<unsigned char>(literal[0]) < 128;
+    return literal.length() == 3 && literal[0] == '\'' && literal[2] == '\'' 
+            && static_cast<unsigned char>(literal[1]) < 128;
 }
 
 bool isInt(const std::string &literal)

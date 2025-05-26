@@ -1,4 +1,4 @@
-NAME = scalarconverter
+NAME = convert
 
 SRC = 	src/main.cpp\
 		src/ScalarConverter.cpp\

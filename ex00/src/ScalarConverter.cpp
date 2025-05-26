@@ -35,7 +35,7 @@ void ScalarConverter::convert(const std::string &literal)
 	std::cout << "The type of the literal is: " << ScalarType << std::endl;
 
 	if (ScalarType == "char")
-		printChar(literal[0]);
+		printChar(literal[1]);
 	else if (ScalarType == "int")
 	{
 		char *end;
