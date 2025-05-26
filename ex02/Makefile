@@ -1,17 +1,12 @@
 NAME = ex02
 
-SRC = 	main.cpp \
-		Bureaucrat.cpp \
-		AForm.cpp\
-		ShrubberyCreationForm.cpp \
-		RobotomyRequestForm.cpp \
-		PresidentialPardonForm.cpp \
-	
+SRC = src/main.cpp \
+
 OBJ = $(SRC:.cpp=.o)
 
-CC = c++
+CXX = c++
 
-CFLAGS = -std=c++98 -Wall -Wextra -Werror
+CXXFLAGS = -std=c++98 -Wall -Wextra -Werror -I./inc
 
 RM = rm -rf
 
@@ -23,12 +18,12 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	@echo "$(GREEN)Compiling $(NAME)...$(RESET)"
-	$(CC) $(OBJ) -o $(NAME)
+	$(CXX) $(OBJ) -o $(NAME)
 	@echo "$(GREEN)Compilation successful!$(RESET)"
 
 %.o: %.cpp
 	@echo "$(GREEN)Compiling $<$(RESET)"
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
 	@echo "$(RED)Removing object files...$(RESET)"
